@@ -1,0 +1,5 @@
+# Versione demo: l'esclusione dall'indicizzazione è gestita dal meta robots "noindex, nofollow" in ogni pagina.
+# Il file non blocca la scansione, così i motori di ricerca possono leggere la direttiva.
+# Quando il sito sarà online sul dominio definitivo, aggiungere qui la riga Sitemap: con l'URL assoluto.
+User-agent: *
+Disallow:

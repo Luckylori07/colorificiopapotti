@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+{{ROBOTS}}<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Colorificio Papotti">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:image" content="assets/img/og-papotti.jpg">
+<meta name="theme-color" content="#1d2125">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/bricolage-grotesque-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{{SCHEMA}}
+</script>
+</head>
+<body data-demo="{{DEMO_ATTR}}" data-sector="{{SECTOR}}" class="{{PAGE_CLASS}}">
+{{BANNER}}
+<a class="skip-link" href="#contenuto">Vai al contenuto</a>
+{{HEADER}}
+<main id="contenuto">
+{{BODY}}
+</main>
+{{FOOTER}}
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
