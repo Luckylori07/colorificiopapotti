@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "tramontis_url": "https://tramontis.netlify.app/",
+  "name": "Colorificio Papotti",
+  "legal_name": "A.P.A. di Papotti Adriano e C. snc",
+  "vat": "00657310124",
+  "street": "Via Piave 169",
+  "postal_code": "21022",
+  "city": "Azzate",
+  "province": "VA",
+  "phone_display": "0332 458537",
+  "phone_intl": "+39 0332 458537",
+  "phone_tel": "+390332458537",
+  "fax_display": "0332 457593",
+  "fax_intl": "+39 0332 457593",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Via+Piave+169%2C+21022+Azzate+VA",
+  "hours": [
+    {"days": "Lunedì – venerdì", "value": "8:00 – 12:00 · 14:30 – 18:30", "schema_days": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "slots": [["08:00","12:00"],["14:30","18:30"]]},
+    {"days": "Sabato", "value": "8:30 – 12:00", "schema_days": ["Saturday"], "slots": [["08:30","12:00"]]},
+    {"days": "Sabato pomeriggio e domenica", "value": "Chiuso", "closed": true}
+  ]
+}
